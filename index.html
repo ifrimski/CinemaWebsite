@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinema Galaxy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">🎬 Cinema Galaxy</h1>
+    
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#filme">Filme</a></li>
+          <li><a href="#rezervare">Rezervare</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Bine ai venit la Cinema Galaxy</h2>
+      <p>Experimentează magia filmului pe ecrane ultra-HD !</p>
+      <a href="#filme" class="btn">Vezi filmele</a>
+    </div>
+  </section>
+  
+  <main>
+    <section id="filme" class="filme-section">
+      <h2>Filmele momentului</h2>
+      <div class="film-grid">
+        <div class="film-card">
+          <img src="https://m.media-amazon.com/images/M/MV5BMTVjMzNmZGYtOWU5NS00NDYzLThhZTktZGNlODIwYWVhMDRmXkEyXkFqcGc@._V1_.jpg" alt="Film 1">
+          <h3>Black Phone 2</h3>
+          <p>Gen: Thriller</p>
+          <p>Durată: 2h 00m</p>
+        </div>
+        <div class="film-card">
+          <img src="https://images.justwatch.com/poster/331859580/s718/scream-5.jpg" alt="Film 2">
+          <h3>Scream 5</h3>
+          <p>Horror</p>
+          <p>Durată: 2h 45m</p>
+        </div>
+        <div class="film-card">
+          <img src="https://m.media-amazon.com/images/I/81Y2WMqbmsL._AC_UF350,350_QL80_.jpg" alt="Film 3">
+          <h3>Cars2</h3>
+          <p>Gen: Animație / Familie</p>
+          <p>Durată: 1h 40m</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="rezervare" class="rezervare-section">
+      <h2>Rezervă-ți locul</h2>
+
+      <div class="select-film">
+        <label for="film-select">Alege filmul:</label>
+        <select id="film-select">
+          <option>Black Phone 2</option>
+          <option>Scream 5</option>
+          <option>Cars 2</option>
+        </select>
+      </div>
+
+      <div class="cinema-room">
+  <div class="screen">ECRAN</div>
+  <table class="seats">
+    <thead>
+      <tr>
+        <th></th>
+        <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
+        <th>6</th><th>7</th><th>8</th><th>9</th><th>10</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <th>A</th>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+      </tr>
+
+      
+      <tr>
+        <th>B</th>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><span class="seat reserved"></span></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><span class="seat reserved"></span></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+      </tr>
+
+     
+      <tr>
+        <th>C</th>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+      </tr>
+
+     
+      <tr>
+        <th>D</th>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><span class="seat reserved"></span></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><span class="seat reserved"></span></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+      </tr>
+
+      
+      <tr>
+        <th>E</th>  
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><span class="seat reserved"></span></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+        <td><label><input type="checkbox"><span class="seat"></span></label></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <p>📍 Str. Filmului nr. 10, București</p>
+      <p>📞 0734 555 888</p>
+      <p>✉️ contact@cinemagalaxy.ro</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Cinema Galaxy-Toate drepturile rezervate</p>
+  </footer>
+</body>
+</html>
